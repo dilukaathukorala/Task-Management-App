@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#ff3131</color>
+    <color name="dark_red">#cc0000</color> <!-- Darker variant of red -->
+    <color name="blue">#2196F3</color> <!-- Primary blue color -->
+    <color name="dark_blue">#1976D2</color> <!-- Darker variant of blue -->
+    <color name="colorPressed">#FF0000</color> <!-- Example for pressed state -->
+    <color name="colorFocused">#00FF00</color> <!-- Example for focused state -->
+    <color name="colorDefault">#0000FF</color>
+    <color name="light_blue_50">#FFE1F5FE</color>
+    <color name="light_blue_200">#FF81D4FA</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color> <!-- Example for default state -->
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryDarkColor">#3700B3</color>
+    <color name="secondaryColor">#03DAC6</color>
+    <color name="gray">#808080</color>
+</resources>

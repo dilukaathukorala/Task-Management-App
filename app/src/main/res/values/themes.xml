@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Theme.TaskApp1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/colorDefault</item>
+        <item name="colorPrimaryContainer">@color/dark_blue</item> <!-- Material3 uses *Container for variants -->
+        <item name="colorOnPrimary">@color/blue</item>
+
+        <!-- Status bar customization -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item> <!-- Light icons on the status bar -->
+
+        <!-- Navigation bar customization -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item> <!-- Light icons on the navigation bar -->
+
+        <!-- Action bar and title -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Secondary color scheme for Material3 -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryContainer">@color/dark_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Default text color -->
+        <item name="android:textColorPrimary">@color/black</item>
+
+        <!-- Background for the app -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- App Widget Themes -->
+    <style name="Theme.TaskApp1.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <item name="appWidgetRadius">20dp</item> <!-- Rounded outer corners -->
+        <item name="appWidgetInnerRadius">10dp</item> <!-- Rounded inner view corners -->
+    </style>
+
+    <style name="Theme.TaskApp1.AppWidgetContainer" parent="Theme.TaskApp1.AppWidgetContainerParent">
+        <item name="appWidgetPadding">20dp</item> <!-- Padding for widget content -->
+    </style>
+
+</resources>

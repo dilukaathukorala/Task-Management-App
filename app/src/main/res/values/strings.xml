@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TaskApp1</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="your_note_will_appear_here">Your note will appear here</string>
+    <string name="go_to_task_list">Go to Task List</string>
+    <string name="go_to_timer">Go to Timer</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="stop_alarm">Stop Alarm</string>
+    <string name="snooze">Snooze</string>
+    <string name="enter_reminder_name">Enter reminder name</string>
+    <string name="add_task">Add Task</string>
+    <string name="enter_a_new_task">Enter a new task</string>
+    <string name="_00_00_00_00">00:00:00:00</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
